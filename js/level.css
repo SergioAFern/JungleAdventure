@@ -1,0 +1,109 @@
+@-webkit-keyframes crash_00 { from { background-position: 0px -768px; } to { background-position: 0px -768px; }}
+@keyframes crash_00 { from { background-position: 0px -768px; } to { background-position: 0px -768px; }}
+
+@-webkit-keyframes crash_10 { from { background-position: 0px 0px; } to { background-position: -2816px 0px; }}
+@keyframes crash_10 { from { background-position: 0px 0px; } to { background-position: -2816px 0px; }}
+
+@-webkit-keyframes crash_20 { from { background-position: 0px -256px; } to { background-position: -2816px -256px; }}
+@keyframes crash_20 { from { background-position: 0px -256px; } to { background-position: -2816px -256px; }}
+
+@-webkit-keyframes crash_01 { from { background-position: -256px -768px; } to { background-position: -256px -768px; }}
+@keyframes crash_01 { from { background-position: -256px -768px; } to { background-position: -256px -768px; }}
+
+@-webkit-keyframes crash_11 { from { background-position: -512px -768px; } to { background-position: -512px -768px; }}
+@keyframes crash_11 { from { background-position: -512px -768px; } to { background-position: -512px -768px; }}
+
+@-webkit-keyframes crash_21 { from { background-position: 0px -512px; } to { background-position: -2816px -512px; }}
+@keyframes crash_21 { from { background-position: 0px -512px; } to { background-position: -2816px -512px; }}
+
+
+@-webkit-keyframes rescue_00 { from { background-position: -768px -768px; } to { background-position: -768px -768px; }}
+@keyframes rescue_00 { from { background-position: -768px -768px; } to { background-position: -768px -768px; }}
+
+@-webkit-keyframes rescue_10 { from { background-position: -1024px -768px; } to { background-position: -1024px -768px; }}
+@keyframes rescue_10 { from { background-position: -1024px -768px; } to { background-position: -1024px -768px; }}
+
+@-webkit-keyframes rescue_20 { from { background-position: -1280px -768px; } to { background-position: -1280px -768px; }}
+@keyframes rescue_20 { from { background-position: -1280px -768px; } to { background-position: -1280px -768px; }}
+
+@-webkit-keyframes rescue_01 { from { background-position: -1536px -768px; } to { background-position: -1536px -768px; }}
+@keyframes rescue_01 { from { background-position: -1536px -768px; } to { background-position: -1536px -768px; }}
+
+@-webkit-keyframes rescue_11 { from { background-position: -1792px -768px; } to { background-position: -1792px -768px; }}
+@keyframes rescue_11 { from { background-position: -1792px -768px; } to { background-position: -1792px -768px; }}
+
+@-webkit-keyframes rescue_21 { from { background-position: -2048px -768x; } to { background-position: -2048px -768px; }}
+@keyframes rescue_21 { from { background-position: -2048px -768px; } to { background-position: -2048px -768px; }}
+
+
+
+@-webkit-keyframes ground { from { background-position: -2304px -768px; } to { background-position: -2304px -768px; }}
+@keyframes ground { from { background-position: -2304px -768px; } to { background-position: -2304px -768px; }}
+
+@-webkit-keyframes medieval { from { background-position: -2560px -768px; } to { background-position: -2560px -768px; }}
+@keyframes medieval { from { background-position: -2560px -768px; } to { background-position: -2560px -768px; }}
+
+
+@-webkit-keyframes snake { from { background-position: 0px 0px; } to { background-position: -2816px 0px; }}
+@keyframes snake { from { background-position: 0px 0px; } to { background-position: -2816px 0px; }}
+
+@-webkit-keyframes snake2 { from { background-position: 0px -768px; } to { background-position: -2816px -768px; }}
+@keyframes snake2 { from { background-position: 0px -768px; } to { background-position: -2816px -768px; }}
+
+
+@-webkit-keyframes alligator { from { background-position: 0px -256px; } to { background-position: -2816px -256px; }}
+@keyframes alligator { from { background-position: 0px -256px; } to { background-position: -2816px -256px; }}
+
+
+@-webkit-keyframes quicksand { from { background-position: 0px -512px; } to { background-position: -2816px -512px; }}
+@keyframes quicksand { from { background-position: 0px -512px; } to { background-position: -2816px -512px; }}
+
+
+
+@-webkit-keyframes cash { from { background-position: 0px -768px; } to { background-position: 0px -768px; }}
+@keyframes cash { from { background-position: 0px -768px; } to { background-position: 0px -768px; }}
+
+@-webkit-keyframes skeleton { from { background-position: -256px -768px; } to { background-position: -256px -768px; }}
+@keyframes skeleton { from { background-position: -256px -768px; } to { background-position: -256px -768px; }}
+
+@-webkit-keyframes wall { from { background-position: -512px -768px; } to { background-position: -512px -768px; }}
+@keyframes wall { from { background-position: -512px -768px; } to { background-position: -512px -768px; }}
+
+@-webkit-keyframes hole { from { background-position: -768px -768px; } to { background-position: -768px -768px; }}
+@keyframes hole { from { background-position: -768px -768px; } to { background-position: -768px -768px; }}
+
+@-webkit-keyframes _none { from { background-position: -1024px 0px; } to { background-position: -1024px 0px; }}
+@keyframes _none { from { background-position: -1024px 0px; } to { background-position: -1024px 0px; }}
+
+
+.crash {
+    width: 256px;
+    height: 256px;
+    background-image: url("../sprite/crash.png"); no-repeat;
+	margin: 0 auto;
+
+    -webkit-animation: crash_00 1s steps(11, end) infinite;
+    animation: crash_00 1s steps(11, end) infinite;
+}
+
+.fixed {
+    width: 256px;
+    height: 256px;
+    background-image: url("../sprite/fixed.png"); no-repeat;
+	margin: 0 auto;
+
+    -webkit-animation: snake 1s steps(11, end) infinite;
+    animation: snake 1s steps(11, end) infinite;
+}
+
+.other {
+    width: 256px;
+    height: 256px;
+    background-image: url("../sprite/other.png"); no-repeat;
+	margin: 0 auto;
+
+    -webkit-animation: _none 1s steps(11, end) infinite;
+    animation: _none 1s steps(11, end) infinite;
+}
+
+

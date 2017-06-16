@@ -1,0 +1,81 @@
+@-webkit-keyframes start_init { from { background-position: 0px 0px; } to { background-position: 0px 0px; }}
+@keyframes start_init { from { background-position: 0px 0px; } to { background-position: 0px 0px; }}
+
+@-webkit-keyframes start_play { from { background-position: 0px 0px; } to { background-position: -11136px 0px; }}
+@keyframes start_play { from { background-position: 0px 0px; } to { background-position: -11136px 0px; }}
+
+.start {
+    width: 384px;
+    height: 256px;
+    background-image: url("../sprite/start.jpg"); no-repeat;
+	margin: 0 auto;
+
+    -webkit-transform:translate3d(0,0,0);
+    transform:translate3d(0,0,0);
+    
+    -webkit-animation: start_play 9s steps(29) forwards; 
+    animation: start_play 9s steps(29) forwards;
+}
+
+@-webkit-keyframes artifact_init { from { background-position: 0px 0px; } to { background-position: 0px 0px; }}
+@keyframes artifact_init { from { background-position: 0px 0px; } to { background-position: 0px 0px; }}
+
+@-webkit-keyframes artifact_play { from { background-position: 0px 0px; } to { background-position: -11136px 0px; }}
+@keyframes artifact_play { from { background-position: 0px 0px; } to { background-position: -11136px 0px; }}
+
+
+.artifact {
+    width: 384px;
+    height: 256px;
+    background-image: url("../sprite/artifact.jpg"); no-repeat;
+	margin: 0 auto;
+
+    -webkit-transform:translate3d(0,0,0);
+    transform:translate3d(0,0,0);
+    
+    -webkit-animation: artifact_play 9s steps(29) forwards; 
+    animation: artifact_play 9s steps(29) forwards;
+}
+
+@-webkit-keyframes restart_init { from { background-position: 0px 0px; } to { background-position: 0px 0px; }}
+@keyframes restart_init { from { background-position: 0px 0px; } to { background-position: 0px 0px; }}
+
+@-webkit-keyframes restart_play { from { background-position: 0px 0px; } to { background-position: -11136px 0px; }}
+@keyframes restart_play { from { background-position: 0px 0px; } to { background-position: -11136px 0px; }}
+
+
+.restart {
+    width: 384px;
+    height: 256px;
+    background-image: url("../sprite/restart.jpg"); no-repeat;
+	margin: 0 auto;
+
+    -webkit-transform:translate3d(0,0,0);
+    transform:translate3d(0,0,0);
+    
+    -webkit-animation: restart_play 6s steps(29) infinite; 
+    animation: restart_play 6s steps(29) infinite;
+}
+
+
+@-webkit-keyframes finish_init { from { background-position: 0px 0px; } to { background-position: 0px 0px; }}
+@keyframes finish_init { from { background-position: 0px 0px; } to { background-position: 0px 0px; }}
+
+@-webkit-keyframes finish_play { from { background-position: 0px 0px; } to { background-position: -11136px 0px; }}
+@keyframes finish_play { from { background-position: 0px 0px; } to { background-position: -11136px 0px; }}
+
+
+.finish {
+    width: 384px;
+    height: 256px;
+    background-image: url("../sprite/finish.jpg"); no-repeat;
+	margin: 0 auto;
+
+    -webkit-transform:translate3d(0,0,0);
+    transform:translate3d(0,0,0);
+    
+    -webkit-animation: finish_play 9s steps(29) forwards; 
+    animation: finish_play 9s steps(29) forwards;
+}
+
+

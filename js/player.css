@@ -1,0 +1,73 @@
+@-webkit-keyframes crouch_stand { from { background-position: 0px 0px; } to { background-position: -3048px 0px; }}
+@keyframes crouch_stand { from { background-position: 0px 0px; } to { background-position: -3048px 0px; }}
+
+@-webkit-keyframes crouch_walk { from { background-position: 0px -202px; } to { background-position: -3048px -202px; }}
+@keyframes crouch_walk { from { background-position: 0px -202px; } to { background-position: -3048px -202px; }}
+
+@-webkit-keyframes run { from { background-position: 0px -404px; } to { background-position: -3048px -404px; }}
+@keyframes run { from { background-position: 0px -404px; } to { background-position: -3048px -404px; }}
+
+@-webkit-keyframes stand { from { background-position: 0px -606px; } to { background-position: -3048px -606px; }}
+@keyframes stand { from { background-position: 0px -606px; } to { background-position: -3048px -606px; }}
+
+@-webkit-keyframes walk { from { background-position: 0px -808px; } to { background-position: -3048px -808px; }}
+@keyframes walk { from { background-position: 0px -808px; } to { background-position: -3048px -808px; }}
+
+
+
+@-webkit-keyframes crouch_jump { from { background-position: 0px -202px; } to { background-position: -3048px -202px; }}
+@keyframes crouch_jump { from { background-position: 0px -202px; } to { background-position: -3048px -202px; }}
+
+@-webkit-keyframes cave_exit { from { background-position: 0px -404px; } to { background-position: -2921px -404px; }}
+@keyframes cave_exit { from { background-position: 0px -404px; } to { background-position: -2921px -404px; }}
+
+@-webkit-keyframes crouch_die { from { background-position: 0px -0px; } to { background-position: -3810px -0px; }}
+@keyframes crouch_die { from { background-position: 0px -0px; } to { background-position: -3810px -0px; }}
+
+
+
+@-webkit-keyframes jump { from { background-position: 0px -606px; } to { background-position: -2921px -606px; }}
+@keyframes jump { from { background-position: 0px -606px; } to { background-position: -2921px -606px; }}
+
+@-webkit-keyframes fall { from { background-position: 0px -404px; } to { background-position: -2921px -404px; }}
+@keyframes fall { from { background-position: 0px -404px; } to { background-position: -2921px -404px; }}
+
+@-webkit-keyframes swing { from { background-position: 0px -808px; } to { background-position: -3048px -808px; }}
+@keyframes swing { from { background-position: 0px -808px; } to { background-position: -3048px -808px; }}
+
+@-webkit-keyframes die { from { background-position: 0px 0px; } to { background-position: -2921px 0px; }}
+@keyframes die { from { background-position: 0px 0px; } to { background-position: -2921px 0px; }}
+
+@-webkit-keyframes drown { from { background-position: 0px -202px; } to { background-position: -2921px -202px; }}
+@keyframes drown { from { background-position: 0px -202px; } to { background-position: -2921px -202px; }}
+
+
+.hero_stand {
+    width: 125px;
+    height: 200px;
+    background-image: url("../sprite/hero_stand.png"); no-repeat;
+	margin: 0 auto;
+    
+    -webkit-animation: stand 800ms steps(24, end) infinite;
+    animation: stand 800ms steps(24, end) infinite;
+}
+
+.hero_crouch {
+    width: 125px;
+    height: 200px;
+    background-image: url("../sprite/hero_crouch.png"); no-repeat;
+	margin: 0 auto;
+    
+    -webkit-animation: crouch_stand 800ms steps(24, end) infinite;
+    animation: crouch_stand 800ms steps(24, end) infinite;
+}
+
+.hero_jump {
+    width: 125px;
+    height: 200px;
+    background-image: url("../sprite/hero_jump.png"); no-repeat;
+	margin: 0 auto;
+
+    -webkit-animation: cave_exit 800ms steps(23) forwards;
+    animation: cave_exit 800ms steps(23) forwards;
+}

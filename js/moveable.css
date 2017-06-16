@@ -1,0 +1,27 @@
+@-webkit-keyframes eagle_fly { from { background-position: 0px 0px; } to { background-position: -7424px 0px; }}
+@keyframes eagle_fly { from { background-position: 0px 0px; } to { background-position: -7424px 0px; }}
+
+@-webkit-keyframes lion_walk { from { background-position: 0px -256px; } to { background-position: -7424px -256px; }}
+@keyframes lion_walk { from { background-position: 0px -256px; } to { background-position: -7424px -256px; }}
+
+
+.eagle {
+    width: 256px;
+    height: 256px;
+    background-image: url("../sprite/moveable.png"); no-repeat;
+	margin: 0 auto;
+    
+    -webkit-animation: eagle_fly 800ms steps(29, end) infinite;
+    animation: eagle_fly 800ms steps(29, end) infinite;
+}
+
+.lion {
+    width: 256px;
+    height: 136px;
+    background-image: url("../sprite/moveable.png"); no-repeat;
+	margin: 0 auto;
+    
+    -webkit-animation: lion_walk 800ms steps(29, end) infinite;
+    animation: lion_walk 800ms steps(29, end) infinite;
+}
+
