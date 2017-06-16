@@ -1,0 +1,6 @@
+{"version":[0,1,0]
+,"title":"Jungle Adventure"
+,"splash":"image/start.jpg"
+,"start":[506,250]
+,"ground":"tiles/ground.png"
+}
